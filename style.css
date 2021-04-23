@@ -21,9 +21,12 @@ header {
   padding-bottom: 2rem;
   text-align: center;
   background-color: var(--header);
+  width: 100%;
 }
 
 nav {
+  display: flex;
+  justify-content: space-between;
   font-size: 1.5rem;
   background-color: var(--nav);
   padding-top: 0.5rem;
@@ -38,8 +41,10 @@ ul {
 }
 
 .box {
+  list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   margin-right: 1rem;
   margin-left: 1rem;
   margin-top: 2rem;
