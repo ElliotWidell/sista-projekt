@@ -25,12 +25,11 @@ header {
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
+  list-style: none;
   font-size: 1.5rem;
   background-color: var(--nav);
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem;
 }
 
 ul {
@@ -40,7 +39,8 @@ ul {
   justify-content: space-around;
 }
 
-.box {
+.box,
+ul {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
