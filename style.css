@@ -2,6 +2,7 @@
   margin: 0;
   border: 0;
   font-family: "Merriweather", serif;
+  box-sizing: border-box;
 }
 
 :root {
@@ -35,12 +36,11 @@ nav {
 ul {
   list-style: none;
   display: flex;
-  justify-content: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.box,
-ul {
+.box {
   list-style: none;
   display: flex;
   justify-content: space-evenly;
@@ -67,4 +67,5 @@ a {
 
 #text {
   font-size: 1.5rem;
+  margin-top: 4rem;
 }
